@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Competitive Programming</title>
+		 <style>
+            #block1
+            {
+                background-color:rgb(27, 27, 27);
+                margin-left:0ch;
+                padding-left: 50 px;
+                padding-right: 100 px;
+            }
+			#block2
+            {
+                background-color:green; 
+            }
+            pre
+            {
+                color:white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size:medium;
+            }
+		</style>
+    </head>
+    <body style="background-color: rgb(27, 27, 27)">
+        <header>
+        <h1 style="background-color:black;color:white" ALIGN="center">Competitive Programming for cracking the interviews</h1>
+        
+        <h2 style="background-color:black;color:white" ALIGN="center">PROBLEM STATEMENT<br><br>
+            Program to Convert the given Binary Number into Decimal
+        </h2>
+    </header>
+        <hr>
+
+        <div id="block1" style="float:left;">
+            <h2 style="color:white"><code>C Code:</code></h2>
+            <pre>
+            <var>
+            #include &lt;stdio.h&gt;                                                 <br>
+
+            void main()                                                        <br>
+            {                                                                  <br>
+                int  num, binary_val, decimal_val = 0, base = 1, rem;          <br>
+                
+                printf("Enter a binary number(1s and 0s) \n");                 <br>
+                scanf("%d", &num); /* maximum five digits */                   <br>
+                binary_val = num;                                              <br>
+                while (num > 0)                                                <br>
+                {                                                              <br>
+                    rem = num % 10;                                            <br>
+                    decimal_val = decimal_val + rem * base;                    <br>
+                    num = num / 10 ;                                           <br>
+                    base = base * 2;                                           <br>
+                }                                                              <br>
+                printf("The Binary number is = %d \n", binary_val);            <br>
+                printf("Its decimal equivalent is = %d \n", decimal_val);      <br>
+            } 
+        </var>                                  
+            </pre>
+            <article style="color:white; font-size:larger">
+                Algorithm to convert the given binary number into decimal number
+                <ul>Input the binary number.</ul>
+                <ul>Multiply each digit of the binary number with the power of 2 and add each multiplication result.</ul>
+                <ul>The power starts from 0 to n-1 where n is the total number of digits in the binary number.</ul>
+
+            </article>
+            <footer>
+            <a href="https://www.sanfoundry.com/c-program-binary-number-into-decimal/" ALIGN="left"><h3 style="color:rgb(127, 123, 187)">Reference Link</h3></a>
+        </footer>
+        </div>
+    
+        <div id="block2" style="float:right;">
+            <pre>
+                
+        Runtime Test Cases:
+
+        Enter a binary number(1s and 0s)
+        10101001
+        The Binary number is = 10101001
+        Its decimal equivalent is = 169
+
+        <hr style="color:black">
+
+        Variables used : num, binary_val, decimal_val ,base , rem
+
+        <hr style="color:black">
+
+        Time complexity : O(log n)
+
+        Space complexity : O(1)
+    
+            </pre>
+        </div>
+
+    </body>
+</html>
