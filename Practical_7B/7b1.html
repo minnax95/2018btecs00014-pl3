@@ -1,0 +1,148 @@
+<!DOCTYPE>
+<HTML>
+<head>
+	<title>Audio Streaming Website</title>
+	<style>
+	h1{font-family: Verdana, Geneva, Tahoma, sans-serif; color:BLACK; text-align:center}
+	h3{font-family: Verdana, Geneva, Tahoma, sans-serif; color:BLACK; text-align:center}
+	pre{font-family:Times New Roman;color:BLACK} 
+	.column 
+            {
+                float: left;
+                width: 24%;
+               border-style:outset;
+            }
+	.column1 
+            {
+                float: left;
+                width: 24.5%;
+               
+            }
+            .row:after 
+            {
+                content: "";
+                display: table;
+                clear: both;
+            } 
+	</style>
+</head>
+	
+<body>
+	<header>
+	<h1>Audio Streaming Website</h1><br>
+	</header>
+	<section>
+		<marquee direction="right" behaviour="scroll" bgcolor="#FFFFCC" scrolldelay="50" scrollamount="10" height="35">
+                
+                    <a href="7b2.html">Website for video</a> | &nbsp;
+                    <a href="7b3.html">Website for youtube videos</a> | &nbsp;
+                    <a href="7b4.html">Website for audios</a>
+                
+		</marquee>
+            </section>
+	
+	<div class="row">
+	<!--audio player with its controls, autoplay and loop enabled-->
+        <div class="column" >
+	<div id="audiocontainer">
+	<h3>Wavin' Flag</h3>
+	<img src="Flag.jpg" HSPACE="50px"><br>
+	<audio id="audioplayer" src="WavinFlag.mp3" controls autoplay loop>
+	<div style="border: 1px solid black ; padding: 8px ;">
+	Sorry, your browser does not support the &lt;audio&gt; tag used in this demo.
+	</div>
+	</audio>
+	</div>
+	</div>
+
+	<!--audio player with disabled controls, autoplay and muted-->
+	<div class="column" >
+	<div id="audiocontainer">
+	<h3>Ignite - Alan Walker</h3>
+	<img src="ignite.jpeg" HSPACE="50px"><br>
+	<audio autoplay muted id="audioplayer" src="ignite.mp3">
+	<div style="border: 1px solid black ; padding: 8px ;">
+	Sorry, your browser does not support the &lt;audio&gt; tag used in this demo.
+	</div>
+	</audio>
+	</div>
+	</div>
+	
+	<!--audio player with its controls and element with source tag-->
+	<div class="column" >
+	<div id="audiocontainer">
+	<h3>Alone - Alan Walker</h3>
+	<img src="alone.jpeg" HSPACE="50px"><br>
+	<audio controls id="audioplayer1" >
+	<source src="alone.ogg" type="audio/ogg">
+  	<source src="alone.mp3" type="audio/mpeg">
+	<div style="border: 1px solid black ; padding: 8px ;">
+	Sorry, your browser does not support the &lt;audio&gt; tag used in this demo.
+	</div>
+	<track label="English" kind="subtitles" srclang="en" src="alone.vtt" default>
+	</audio>
+	</div>
+	</div>
+
+	<!--Audio player with its control and with subtitles using track-->
+	<div class="column" >
+	<div id="audiocontainer">
+	<h3>Happier - Marshmello</h3>
+	<img src="happier.jpg" HSPACE="50px"><br>
+	<audio controls id="audioplayer" src="happier.mp3">
+	<div style="border: 1px solid black ; padding: 8px ;">
+	Sorry, your browser does not support the &lt;audio&gt; tag used in this demo.
+	</div>
+	</audio>
+	</div>
+	</div>
+	</div><br><hr>
+	
+	<!--Navigation-->
+	<h2>Navigation Links :</h2>
+	<div class="row">
+	<div class="column1">
+	<h3>1. Wavin' Flag</h3>	
+	<pre><a href="https://youtu.be/WTJSt4wP2ME">Click here </a>to watch the video.</pre>
+	<pre><a href="https://genius.com/Knaan-wavin-flag-coca-cola-celebration-mix-lyrics">Click here </a>to read the lyrics.</pre>
+	<pre><a href="https://en.wikipedia.org/wiki/Wavin%27_Flag">Click here </a>to know more about the song.</pre>
+	</div>
+	
+	<div class="column1">
+	<h3>2. Ignite</h3>	
+	<pre><a href="https://youtu.be/Az-mGR-CehY">Click here </a>to watch the video.</pre>
+	<pre><a href="https://www.azlyrics.com/lyrics/k391/ignite.html">Click here </a>to read the lyrics.</pre>
+	<pre><a href="https://alan-walker.fandom.com/wiki/Ignite">Click here </a>to know more about the song.</pre>
+	</div>
+
+	<div class="column1">
+	<h3>3. Alone</h3>	
+	<pre><a href="https://youtu.be/1-xGerv5FOk">Click here </a>to watch the video.</pre>
+	<pre><a href="https://www.azlyrics.com/lyrics/alanwalker/alone.html">Click here </a>to read the lyrics.</pre>
+	<pre><a href="https://oxalisadventure.com/alan-walkers-alone-ptii-ft-avamax-heres-all-you-need-to-know/">Click here </a>to know more about the song.</pre>
+	</div>
+
+	<div class="column1">
+	<h3>4. Happier</h3>	
+	<pre><a href="https://youtu.be/m7Bc3pLyij0">Click here </a>to watch the video.</pre>
+	<pre><a href="https://genius.com/Marshmello-and-bastille-happier-lyrics">Click here </a>to read the lyrics.</pre>
+	<pre><a href="https://en.wikipedia.org/wiki/Happier_(Marshmello_and_Bastille_song)">Click here </a>to know more about the song.</pre>
+	</div>
+	</div><br><hr>
+
+	<!--Credits section-->	
+	<h2>Credits : </h2>
+	<pre><h4>Alone - Alan Walker :   
+	  <b>Artists:</b> Alan Walker, Ava Max
+	  <b>Album:</b> Alone, Pt. II (Remixes)
+	  <b>Released:</b> 2020
+	  <b>Genre:</b> Pop
+	  <b>Label:</b> MER; Sony
+	  <b>Producer(s):</b> Walker; Smaaland; Arnbekk (co.); Cirkut (co.); Hovind (co.); Big Fred (co.)</pre><br><hr>
+
+	<footer>
+	<p style="text-align:right;  font-size:18px">Made with &hearts; by Minal</p>
+	</footer>
+	
+</body>
+</HTML>

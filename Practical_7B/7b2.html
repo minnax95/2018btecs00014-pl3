@@ -1,0 +1,120 @@
+<!DOCTYPE>
+<HTML>
+<head>
+	<title>Video Streaming </title>
+	<style>
+	h1{font-family: Verdana, Geneva, Tahoma, sans-serif;color:RED; text-align:center; font-size:45px;} 
+	h2{font-family: Verdana, Geneva, Tahoma, sans-serif; color:PURPLE; text-align:left; margin-left:200px;font-size:30px; } 
+	p{font-family: Verdana, Geneva, Tahoma, sans-serif; color:#00FF66; text-align:center; font-size:35px; } 
+	.credit_title{ color:WHITE; text-align:right; margin-right:50px;font-size:20px; } 
+	body{background-color:BLACK}
+	.column1 
+            {
+                float: left;
+                width: 35%;
+              
+               border: 1px solid black;
+               margin-left: 130px;
+            }
+            .row:after 
+            {
+                content: "";
+                display: table;
+                clear: both;
+            } 
+        pre
+        {
+        	font-family:Times New Roman;
+  			font-size:23px;
+        	color : WHITE;
+        	margin:0px 30px;
+    		float: center;
+        }
+	</style>
+	
+</head>
+	
+<body>
+	<header>
+	<h1></h1>
+	<h1 style="font-size:55px;
+   
+    background-color: black;
+   
+    
+    float: center;
+    top:5%">Netflix Series</h1>
+	</header><br>
+	<section>
+		<marquee direction="right" behaviour="scroll" bgcolor="#FFFFCC" scrolldelay="50" scrollamount="10" height="35">
+                
+                    <a href="7b1.html" target="_blank">Audio Streaming website</a> | &nbsp;
+                    <a href="7b3.html" target="_blank">YouTube website</a> | &nbsp;
+                    <a href="7b4.html" target="_blank">External resources website</a>
+                </marquee>
+     </section>
+
+	<h2>Videos :</h2>
+	
+	
+	<!--Video player with controls autoplay and loop-->
+	<div class="row">
+    <div class="column1" >
+		<video controls autoplay loop width="520" height="350">
+		  <source src="strangerThings.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+		</video><br>
+		<br><pre><b> Stranger Things 4 </b></pre>
+		<pre><a href="https://youtu.be/oB2GYwbIAlM"> Click here</a> to watch video on YouTube.</pre><br>
+	</div>
+	
+	<!--Video player with controls disabled autoplay and muted-->
+	<div class="column1" >
+		<video autoplay muted width="520" height="350">
+		  <source src="WeDontTalkAnymore.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+		</video><br>
+		<br><pre><b>  We Don't Talk Anymore </b></pre>
+		<pre><a href="https://youtu.be/i_yLpCLMaKk"> Click here</a> to watch video on YouTube.</pre><br>
+	</div>
+	</div><br>
+	
+	<!--Video player with controls and two different source of media (mp4 and mkv)-->
+	<br>
+	<div class="row">
+    <div class="column1" >
+		<video   controls width="520" height="350">
+		  <source src="Tuyo.mp4" type="video/mp4">
+		  <source src="Tuyo.mkv" type="video/mkv">
+		Your browser does not support the video tag.
+		</video><br>
+		<br><pre><b> Tuyo !!</b></pre>
+		<pre><a href="https://youtu.be/9IbztvP2aPo"> Click here</a> to watch video on YouTube.</pre><br>
+	</div>
+	
+	<!--Video player with subtitles using track-->
+	<div class="column1" >
+		<video   controls width="520" height="350">
+		  <source src="BellaCiao.webm" type="video/webm">
+		  <source src="BellaCiao.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+		<track label="English" kind="subtitles" srclang="en" src="BellaCiao.vtt" default />
+		</video><br>
+		<br><pre><b> Bella Ciao </b></pre>
+		<pre><a href="https://youtu.be/0bmE9XY3sOc"> Click here</a> to watch video on YouTube.</pre><br>
+	</div>
+	</div><br><hr>
+
+	<footer>
+		<h2 style="text-align:right; margin-right:50px;">Credits :</h2>
+		<div class="credit_title"><b>Song :</b> Bella Ciao</div><br>
+		<div class="credit_title"><b>Series :</b> Money Heist</div><br>
+		<div class="credit_title"><b>Language:</b> Spanish</div><br>
+		<div class="credit_title"><b>Artist :</b> Manu Pilas</div><br>
+		<div class="credit_title"><b>Released: 2018</div><br>
+		
+	</footer>
+	
+	
+</body>
+</HTML>
