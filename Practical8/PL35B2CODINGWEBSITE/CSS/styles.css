@@ -1,0 +1,19 @@
+#block1
+            {
+                background-color:rgb(27, 27, 27);
+                margin-left:0ch;
+                padding-left: 50 px;
+                padding-right: 100 px;
+            }
+			#block2
+            {
+                background-color:green; 
+            }
+            pre
+            {
+                color:white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size:medium;
+            }
+h1{background-color:black;color:white; }
+h2{background-color:black;color:white;}
