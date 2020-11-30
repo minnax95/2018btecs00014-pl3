@@ -1,0 +1,115 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="CSS/styles.css">    
+<style>    
+ 	body{background-color:GRAY; }
+</style>    
+</head>    
+<body>  
+	<header>
+		<h1>TOUR MANAGEMENT COMPANY</h1>
+		<h2>CUSTOMER FEED BACK FORM</h2>
+		<marquee direction="right" behaviour="scroll" bgcolor="#CCFFFF" scrolldelay="50" scrollamount="10" height="50">		
+<p style="text-align:center"><b>Thankyou for using our service. We value all our customers and strive to meet everyone's need!! </b></p> </marquee>
+	</header>  
+    
+<div class="container">    
+  <form>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="fname">First Name</label>    
+      </div>    
+      <div class="col-75">    
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">    
+      </div>    
+    </div>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="lname">Last Name</label>    
+      </div>    
+      <div class="col-75">    
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">    
+      </div>    
+    </div>    
+    <div class="row">    
+        <div class="col-25">    
+          <label for="email">Mail Id</label>    
+        </div>    
+        <div class="col-75">    
+          <input type="email" id="email" name="mailid" placeholder="Your mail id..">    
+        </div>    
+      </div>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="country">Country</label>    
+      </div>    
+      <div class="col-75">    
+        <select id="country" name="country">    
+            <option value="none">Select Country</option>    
+          <option value="australia">Australia</option>    
+          <option value="canada">Canada</option>    
+          <option value="usa">USA</option>    
+          <option value="russia">Russia</option>    
+          <option value="japan">Japan</option>    
+          <option value="india">India</option>    
+          <option value="china">China</option>    
+        </select>    
+      </div>    
+    </div> 
+   
+	<div class="row">    
+      <div class="col-25">    
+        <label for="satisfaction">Were you satisfied with the customer service we provided you?</label>    
+      </div>    
+      <div>     
+            <p><br>
+	<input type="radio" name="satisfaction" checked>Yes</input>
+	<input type="radio" name="satisfaction">No</input>
+	<input type="radio" name="satisfaction">Somewhat</input>
+	</p>  
+      </div>    
+    </div> 
+     
+	<div class="row">    
+      <div class="col-25">    
+        <label for="Experience">Did you experience any problem accessing our vehicles or services?</label>    
+      </div>    
+      <div>     
+            <p><br>
+	<input type="radio" name="Experience" checked>Yes</input>
+	<input type="radio" name="Experience">No</input>
+	<input type="radio" name="Experience">Somewhat</input>
+	</p>  
+      </div>    
+    </div>
+
+	<div class="row">    
+      <div class="col-25">    
+        <label for="service">Was our customer service provided to you in an accessible manner?</label>    
+      </div>    
+      <div class="col-65">     
+            <p><br>
+	<input type="radio" name="service" checked>Yes</input>
+	<input type="radio" name="service">No</input>
+	<input type="radio" name="service">Somewhat</input>
+	</p>  
+      </div>    
+    </div>
+    <div class="row">    
+      <div class="col-25">    
+        <label for="feed_back">Feed Back</label>    
+      </div>    
+      <div class="col-75">    
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>    
+      </div>    
+    </div>    
+    <div class="row">    
+      <input type="submit" value="Submit">    
+    </div>    
+  </form>    
+</div>    
+    
+</body>    
+</html>    

@@ -1,0 +1,29 @@
+
+	th, td {
+	  padding: 5px;
+	}
+	th {
+	  text-align: left;
+	}
+	li {
+	  display: inline;
+	}
+	li {
+	  float: left;
+	}
+
+.table-row
+            {
+               text-align:center;
+             	margin-left:auto;
+             	margin-right:auto;
+                height:35px;
+				cursor: all-scroll;
+				
+            }
+             tr:nth-child(odd) { 
+            background-color:#CC9999; 
+        } 
+        tr:nth-child(even) { 
+            background-color:#FFFFCC; 
+        } 
